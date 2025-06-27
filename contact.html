@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #222;
+            color: #fff;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: #aaa;
+        }
+
+
+
+        button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+
+    <header style="padding: 20px; display: flex; justify-content: space-between;">
+        <div style="color: white; text-align: left;">
+            <span style="vertical-align: middle;">
+                <img src="public/logo.png" alt="Logo" style="width: 50px; vertical-align: middle;">
+            </span>
+            <span style="font-size: 24px; vertical-align: middle;">Spotify</span>
+            <br>
+            <span style="font-size: 18px; color: #cccccc; font-style: italic;">“Tune. Vibe. Repeat.”</span>
+        </div>
+        <div style="display: flex; margin-top: 30px;">
+            <li><a href="index.html" style="color: white; padding: 12px 20px;">Home</a></li>
+            <li> <a href="music.html" style="color: white; padding: 12px 20px;">Audio</a></li>
+            <li><a href="video.html" style=" color: white; padding: 12px 20px;">Video</a> </li>
+            <li><a href="topartist.html" style="color: white; padding: 12px 20px;">Top Artist</a> </li>
+            <li><a href="contact.html" style=" color: white; padding: 12px 20px;">Contact</a></li>
+        </div>
+    </header>
+    <hr>
+    <nav style="background-color: #111; padding: 15px 30px; top: 0; z-index: 1000;">
+        <center>
+
+            <p style="color: #cccccc;font-size: 20px;"><i>“Have questions, feedback, or need help? We’d love
+                    to hear from you! Feel free to reach out using the options below.”</i>
+            </p>
+            <hr>
+            <a href="#social" style="color: #fff; text-decoration: none; margin-right: 20px;">Contacts</a>
+            <a href="#contact" style="color: #fff; margin-right: 20px; text-decoration: none;">Feedback</a>
+            <a href="#aboutus" style="color: #fff; margin-right: 20px; text-decoration: none;">About Us</a>
+        </center>
+    </nav>
+
+    <section id="social" style="background-color: #000; color: #fff; padding: 40px; font-family: Arial, sans-serif;">
+        <h2>Socials</h2>
+        <p>💬 <strong>Live Chat:</strong> Available weekdays, 9am–5pm</p>
+        <p>📧 <strong>Email:</strong> <a href="mailto:your@email.com" style="color: #1e90ff;">yuvrajkale95@gmail.com</a>
+        </p>
+        <p>🔗 <strong>Follow us on social media:</strong></p>
+        <p>
+            <a href="https://www.facebook.com/" style="color: #1e90ff; margin-right: 10px;">Facebook</a> |
+            <a href="https://www.instagram.com/yuviii.01/" style="color: #1e90ff; margin: 0 10px;">Instagram</a> |
+            <a href="#" style="color: #1e90ff; margin: 0 10px;">LinkedIn</a> |
+            <a href="#" style="color: #1e90ff; margin-left: 10px;">Twitter</a>
+        </p>
+        <p>📄 <a href="#" style="color: #1e90ff;">Visit our Help Center</a> for FAQs and support articles.</p>
+    </section>
+    <hr>
+
+    <section id="contact">
+        <h2 style="color: #cccccc;padding-left: 40px;">Feedback</h2>
+
+        <p style="color: #cccccc;padding-left: 40px;">Please fill out the form below and write the feedback.</p>
+
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+
+            <input type="submit"></button>
+        </form>
+    </section>
+    <hr>
+    <section id="aboutus" style="background-color: #000; color: #fff; padding: 40px; font-family: Arial, sans-serif;">
+        <h2>About Us</h2>
+        <p style="max-width: 800px; line-height: 1.6;">
+            At Spotify, we’re changing the way the world listens to music. Founded in 2006 in Stockholm, Sweden, Spotify
+            has grown into the world’s most popular audio streaming platform, with millions of listeners and creators
+            across every corner of the globe.
+        </p>
+        <p style="max-width: 800px; line-height: 1.6;">
+            Our mission is to unlock the potential of human creativity by giving a million creative artists the
+            opportunity to live off their art — and billions of fans the opportunity to enjoy and be inspired by it.
+            Whether it's discovering a new artist, streaming your favorite podcast, or curating the perfect playlist,
+            we’re here to make every moment sound better.
+        </p>
+        <p style="max-width: 800px; line-height: 1.6;">
+            With a relentless focus on innovation, user experience, and audio culture, Spotify continues to lead the way
+            in streaming technology, helping creators thrive and listeners connect — all around the world.
+        </p>
+    </section>
+
+
+</body>
+
+</html>
